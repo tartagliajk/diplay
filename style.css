@@ -1,0 +1,29 @@
+body{
+    background-color: antiquewhite;
+}
+
+#diplay-inline-block{
+    display: inline-block;
+    background-color: cadetblue;
+    height: 100px;
+    width: 400px;
+}
+
+#itprogram{
+    display: block;
+    height: auto;
+    color: white;
+    background-color: black;
+}
+
+.grid-container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px 50px 50px 50px;
+    gap: 2px;
+}
+
+.grid-container > div{
+    background-color:darkgreen;
+}
